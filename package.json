@@ -1,0 +1,38 @@
+{
+  "name": "switch-stmt",
+  "version": "0.0.1",
+  "description": "A simple switch case function",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "package.json"
+  ],
+  "scripts": {
+    "build": "rm -R dist/* && rmdir dist && tsc --p tsconfig.build.json",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jthure/switch-stmt.git"
+  },
+  "keywords": [
+    "switch",
+    "case"
+  ],
+  "author": "Jonas Thuresson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jthure/switch-stmt/issues"
+  },
+  "homepage": "https://github.com/jthure/switch-stmt#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.11",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {}
+}
